@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs') %>
+
+<h2>Ici, ettehcruof</h2>
+
+<% if (locals.message) { %>
+<p><%= message %></p>
+<% } %>
+
+<% if (!locals.won) { %>
+<a href="?answer=plus"><button>C'est plus</button></a>
+<a href="?answer=moins"><button>C'est moins</button></a>
+<a href="?answer=bravo"><button>C'est ça !</button></a>
+<% } else { %>
+<a href="?answer=new"><button>Rejouons !</button></a>
+<% } %>
+
+<%- include('partials/footer.ejs') %>

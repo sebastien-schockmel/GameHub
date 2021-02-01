@@ -1,0 +1,33 @@
+main#playground {
+    margin: 15px auto;
+    width: 45vw;
+    text-align: center;
+  }
+  
+  div.cell {
+    width: 15vw;
+    height: 15vw;
+    min-height: 50px;
+    min-width: 50px;
+    display: inline-block;
+    margin: 3px;
+    border: 0px solid white;
+    box-sizing: border-box;
+    transition: border ease .1s;
+  }
+  
+  button#go {
+    display: block;
+    width: 15vw;
+    font-size: 2em;
+    height: 10vh;
+    background-color: #ccc;
+    border: none;
+    margin: 3vh auto;
+    cursor: pointer;
+  }
+  
+  div#message {
+    text-align: center;
+    font-size: 2em;
+  }

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "fourchette",
+    "title": "Jeu de la fourchette",
+    "cssFile": null,
+    "jsFile": "fourchette.js"
+  },
+  {
+    "name": "ettehcruof",
+    "title": "Jeu de la fourchette à l'envers",
+    "cssFile": "ettehcruof.css",
+    "jsFile": null
+  },
+  {
+    "name": "diceRoller",
+    "title": "Dice Roller",
+    "cssFile": "diceRoller.css",
+    "jsFile": "diceRoller.js"
+  },
+  {
+    "name": "rpg",
+    "title": "rpg",
+    "cssFile": "rpg.css",
+    "jsFile": "rpg.js"
+  },
+  {
+    "name": "simon",
+    "title": "simon",
+    "cssFile": "simon.css",
+    "jsFile": "simon.js"
+  }
+]

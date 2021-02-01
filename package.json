@@ -1,0 +1,24 @@
+{
+  "name": "s03-atelierpair-gamehub-jpruliere",
+  "version": "1.0.0",
+  "description": "Bon, on a quelques jeux qui traînent, c'est cool ! Mais c'est le bazar !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Nemo/s03-atelierpair-gamehub-jpruliere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Nemo/s03-atelierpair-gamehub-jpruliere/issues"
+  },
+  "homepage": "https://github.com/O-clock-Nemo/s03-atelierpair-gamehub-jpruliere#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

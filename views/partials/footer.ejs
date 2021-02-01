@@ -1,0 +1,10 @@
+<footer>
+    <p>&copy; <%= promo %> 2020</p>
+</footer>
+
+<% if (locals.theRightGame && theRightGame.jsFile) { %>
+<script src="/js/<%= theRightGame.jsFile %>"></script>
+<% } %>
+
+</body>
+</html>

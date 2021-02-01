@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GameHub</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <%# si on est sur la page diceRoller, on a besoin d'un CSS spécifique %>
+  
+  
+  <% if (locals.theRightGame && theRightGame.cssFile) { %>
+  <link rel="stylesheet" href="/css/<%= theRightGame.cssFile %>">
+  <% } %>
+
+
+
+
+  
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="/">GameHub</a>
+    </h1>
+    <h3 class="user-message">
+      <% if (currentUser) { %>
+      Bonjour, <%= currentUser.user %> !
+      <% } else { %>
+      
+      <% } %>
+    </h3>
+    <nav>
+      <ul>
+        <% for (const game of games) { %>
+        <li><a href="/game/<%= game.name %>"><%= game.title %></a></li>
+        <% } %>
+      </ul>
+
+    </nav>
+  </header>
